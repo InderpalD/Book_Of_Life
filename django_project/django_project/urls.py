@@ -17,7 +17,10 @@ from django.contrib import admin
 from django.urls import path, include
 
 # Used to map all the website's routes (Checks here before any other urls.py file)
+# Django makes it easy to seperate differnt apps. For ex, if you like a payment page
+# that you developed in a seperate app, you can use clever re-routing down below.
+
 urlpatterns = [
     path('admin/', admin.site.urls), 
-    path('blog/', include('blog.urls')), 
+    path('', include('blog.urls')), 
 ]
