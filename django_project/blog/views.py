@@ -1,30 +1,13 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .models import Post
 
-
-posts = [
-    {
-        'author': 'Inderpal',
-        'title': 'Post 1',
-        'content': 'First Post!',
-        'date_posted': 'March 25, 2020'
-    },
-
-    {
-        'author': 'Paul',
-        'title': 'Post 2',
-        'content': 'Second Post!',
-        'date_posted': 'March 25, 2020'
-    }
-
-]
 
 def home(request):
     # Render the home.html file from blog/templates/blog
 
     template_inputs = {
-        'posts': posts,
-        'title': 'yo'
+        'posts': Post.objects.all()
     }
 
     # By passing additonal args into render, you can access in template file
