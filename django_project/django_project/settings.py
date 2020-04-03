@@ -122,6 +122,12 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+# Path to our profile pics
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# Where the pic is in the browser
+MEDIA_URL = '/media/'
+
 CRISPY_TEMPLATE_PACK= 'bootstrap4'
 
 LOGIN_REDIRECT_URL = 'blog-home'
