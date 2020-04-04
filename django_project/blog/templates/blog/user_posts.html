@@ -2,6 +2,7 @@
 
 {% block replace_content%}
 
+    <h1 class='mb-3'>Posts by {{ view.kwargs.username }} </h1>
     {% for post in posts %}
         <!-- The CSS for blog posts themselves, on home page of course -->
         <article class="media content-section">
