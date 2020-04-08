@@ -1,5 +1,5 @@
 # Welcome to the Book of Life
-Inspired by Bill Simmons' Book of Basketball, this journaling site will feature a broad scope of life lessons that have helped me most in advancing my career, improving my health, and living my optimal life. 
+Inspired by Bill Simmons' Book of Basketball, this journaling site will feature a broad scope of life lessons that have helped me most in advancing my career, improving my health, and much more. 
 
 As I continue to learn more about life and find what works best for me, I will add posts to the site. Each post will represent some challenge I did or mindset that I took on for a period of time, and will include an analysis of what makes it great and why I wish to document it for myself and others to incorporate it into our lives. 
 
